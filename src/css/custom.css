@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600&display=swap');
+
+:root {
+  --ifm-color-primary: #2563eb;
+  --ifm-color-primary-dark: #1d4ed8;
+  --ifm-color-primary-darker: #1b46c2;
+  --ifm-color-primary-darkest: #16379a;
+  --ifm-color-primary-light: #3b82f6;
+  --ifm-color-primary-lighter: #60a5fa;
+  --ifm-color-primary-lightest: #93c5fd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(37, 99, 235, 0.08);
+  --ifm-card-background: #ffffff;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;
+  --ifm-color-primary-dark: #4f8ded;
+  --ifm-color-primary-darker: #3c76d5;
+  --ifm-color-primary-darkest: #2a5fb8;
+  --ifm-color-primary-light: #8bb5ff;
+  --ifm-color-primary-lighter: #a9c8ff;
+  --ifm-color-primary-lightest: #cfe1ff;
+  --docusaurus-highlighted-code-line-bg: rgba(96, 165, 250, 0.12);
+  --ifm-card-background: #0f172a;
+}
+
+body {
+  font-family: 'Space Grotesk', 'Noto Sans SC', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background-color: var(--ifm-background-color);
+}
+
+.navbar__title {
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+
+.navbar__brand {
+  gap: 0.4rem;
+}
+
+.footer__title {
+  letter-spacing: 0.02em;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #0b1220;
+}
